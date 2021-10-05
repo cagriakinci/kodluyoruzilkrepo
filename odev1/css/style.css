@@ -1,0 +1,42 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.h1-attribute{
+    margin-left: 39%;
+    color: red;
+    font-size: 40px;
+}
+
+.link-attribute{
+    margin-left: 38%;
+    font-size: 20px;
+}
+
+.h2-attribute{
+    margin-left: 42%;
+    font-size: 30px;
+    color: slateblue;
+}
+
+.p-attribute{
+    margin-left: 1%;
+    font-size: 20px;
+    
+}
+
+.h4-attribute{
+    margin-left: 33%;
+    font-size: 25px;
+    color: slateblue;
+}
+
+.liste-attribute{
+    margin-left: 42%;
+    font-size: 20px;
+}
+
+.urun-liste-attribute{
+    margin-left: 39%;
+    font-size: 20px;
+}
