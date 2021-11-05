@@ -1,0 +1,24 @@
+Soru:
+
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+
+
+                                7
+                            5       8
+                        1         6    9
+                    0       3  
+                          2   4
+
+Root sayımız 7'dir.
+
+1) Dizide sırayla gittiğimizde 7'den sonra 5 sayısı gelmektedir. 5, 7'den küçük olduğu için sol tarafa yazılmaktadır. 
+2) Sıradaki sayı 1. Bu sayı hem 7'den küçük hem de 5'ten küçük olduğundan 5'in altına sol tarafa yazılır.
+3) 8 sayısı root sayımızdan büyük olduğundan sağ tarafa yazılır.
+4) 3 sayısı hem 1'den büyük olduğundan sağ tarafa yazılır.
+5) 0 sayısı 1'den küçük olduğundan sola yazılır.
+6) 9 sayısı 8'den büyük olduğundan sağa yazılır.
+7) 4 sayısı 3'ten büyük olduğundan sağa yazılır.
+8) 2 sayısı 3'ten küçük olduğundan sola yazılır.
